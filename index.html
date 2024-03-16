@@ -6,9 +6,50 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script
+    src="https://kit.fontawesome.com/836a943e18.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <div class="container">  
+   
+        <div class="burger-menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#landing-page">
+              <img src="images/profile-pic.jpg" alt="Shivani N" class="profile-pic nav-link"/>
+              <span class="caption nav-link">Shivani N</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/shivani-n-331764227ji" target="_blank" class="nav-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+      
+        
+      </ul>
+ 
+      </div>
+    </header>
+    
     <main>
       <section id="landing-page" class="landing-page">
         <div class="container">
@@ -43,11 +84,9 @@
           </div>
           <div class="about-text-box">
             <h2>About</h2>
-              <h3>Skills and Experience </h3><br>
-              <p>I possess a solid foundation in programming languages, particularly C, Python at a beginner level and currently gaining profiency at HTML and CSS. 
-              My practical experience includes an intern at Accolade Tech Solutions, where I honed my skills and contributed to a meaningful project. 
-              Additionally, I am an active member of the Google Developer Student Clubs (GDSC) community, which has provided me with opportunities to collaborate on diverse technical initiatives and further expand my expertise.
-              These experiences have not only enhanced my technical proficiency but also instilled in me a deep passion for problem solving and innovation.
+        
+              <p>Coupling my adeptness in programming languages like C, HTML, CSS, and others, with hands-on experience from Accolade Tech Solutions, I've cultivated a passion for problem-solving and innovation. Actively engaging in the Google Developer Student Clubs (GDSC) community, I thrive on collaborative endeavors and diverse technical initiatives. Beyond coding, I embrace curiosity, exploring hobbies like photography, discovering new music, delving into intriguing facts, and devouring enriching literature, 
+                shaping me into a well-rounded individual committed to personal growth.
               </p>
           </div>
         </div>
@@ -70,10 +109,23 @@
       </section>
       <hr>
       <section id="projects" class="projects">
-        <div class="title-heading">
+        <div class="title-heading"> 
           <h2>PROJECTS</h2>
-          <p>these are some of my recent projects</p>
-        </div>
+          <p>these are some of my recent projects</p> <br><br><br><br><br>
+        <div class="project-item">
+          <div class="project-description has-margin-right">
+            <h2>BloodBank Management System</h2>
+            <p>
+              A digital platform that facilitates blood donation management, allowing voluntary registration for donors and blood availability verification. <br>Project Database Management employs phpMyAdmin for easy MySQL database administration. MySQL powers the backend, chosen for its reliability and performance. 
+              Together, they provide a seamless solution for storing and managing data in the Blood Bank System.
+
+            </p>
+            <a href="https://github.com/shivaninuji/bloodbank" class="project-link" target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
+          </div>
+          <div class="project-img">
+            <img src="images/bloodbank.png" />
+          </div>
+        </div><br><br><br>
         <div class="project-item">
           <div class="project-img has-margin-right">
             <img src="images/sppms.png" />
@@ -88,8 +140,7 @@
             <a href="https://github.com/shivaninuji/hungry-hive" class="project-link" target="_blank"
               ><i class="fab fa-github" aria-hidden="true"> View Code</i></a>
           </div>
-        </div>
-
+        </div><br><br><br><br><br><br>
         <div class="project-item">
           <div class="project-description has-margin-right">
             <h2> A website which generates movie screenplay with the input of voice.</h2>
@@ -97,21 +148,46 @@
               The user inputs a narration, through an audio file.The audio file is converted to text using a speech-to-text API.
               The text is then passed to a large language model, which generates the screenplay.The screenplay is then formatted according to industry standards and output to the user. It is a user-friendly website.
             </p>
+            <a href="https://github.com/shivaninuji/audiotoscreenplay" class="project-link" target="_blank">
+              <i class="fab fa-github" aria-hidden="true"> View Code</i></a>
           </div>
           <div class="project-img">
             <img src="images/audiotoscreenplay.png" />
-            <a href="https://github.com/shivaninuji/audiotoscreenplay" class="project-link" target="_blank"
-              ><i class="fab fa-github" aria-hidden="true"> View Code</i></a>
+           
           </div>
         </div>
         <hr />
+        <section id="experience" class="experience">
+          <div class="title-heading">
+            <h2>EXPERIENCE</h2><br><br>  
+          </div>
+            <div class="service-tiers">
+              <div class="tier-item">
+                
+                <h2>Student Intern, Accolade Tech Solutions</h2>
+                <p>
+                  Throughout the journey from problem statement to project completion, I've embraced teamwork, innovation, and dedication, reinforcing my passion for continuous growth and impactful contributions. Our goal was to develop an audio-to-text application, and this experience has shaped my commitment 
+                  to excellence in problem-solving and innovation.
+                </p>
+              </div>
+              <div class="tier-item">
+            
+                <h2>Community Member, Google Developer Student Club SCEM</h2>
+                <p>
+                  I actively engage in various workshops and activities to enhance my knowledge and refine my skills. I participated in DevFest organized by GDG, Mangalore, where I immersed myself in insightful sessions and networking opportunities. Additionally, I successfully completed the Google Cloud Study Jams 2023, 
+                  gaining practical experience in leveraging Google Cloud resources effectively. 
+                </p>
+              </div>
+          </div>
+          <hr />
+        </section>
         <section id="resume" class="resume">
           <div class="title-heading">
           <h2>RESUME</h2>
           <div class="action__btns"><br>
             <p>To download my resume in pdf format :</p>
             <a href="https://drive.google.com/file/d/1LAiEJK6G27yHZwXKnloNbqZp4EX8Dzkm/view?usp=sharing" download="Shivani's Resume.pdf" class="resume">Resume</a>
-          </div>
+          </div></div>
       </section>
       <hr>
       </section>
@@ -122,13 +198,11 @@
           Don't hesitate! Drop me a line and I'll get back to you ASAP!
         </p>
         <div class="container">
-          <p>
+          <p >
             <a href="mailto:shivaniiinuji@gmail.com">
               <i class="fas fa-envelope-open"></i>shivaniiinuji@gmail.com</a>
-        </p>
-          <div class="container">
-              <p>
-                <a href="tel:9482151239"><i class="fas fa-phone"></i>9482151239</a></p>
+        </p></div>
+         
         <hr />
       </section>
       <footer>
@@ -137,13 +211,16 @@
           <a href="#about" class="footer-nav-link">About</a>
           <a href="#skills" class="footer-nav-link">Skills</a>
           <a href="#projects" class="footer-nav-link">Projects</a>
+          <a href="#experience" class="footer-nav-link">Experience</a>
           <a href="#resume" class="footer-nav-link">Resume</a>
           <a href="#contact" class="footer-nav-link">Contact</a>
         </div>
         <footer>
           <div class="footer-content">
-              <p>&copy;2023 Shivani N. All Rights Reserved. </p>
+              <p>&copy;2024 Shivani N. All Rights Reserved. </p>
           </div>
       </footer>
+      
+      <script src="main.js"></script>
     </body>
 </html>
