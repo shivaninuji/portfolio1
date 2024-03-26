@@ -352,13 +352,22 @@ hr {
 }
 
 .skills {
-  display: flex;
-  height:16vh;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 0vh;
+  height: 20vh;
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the section horizontally */
+  padding: 0px; /* Adjust the padding as needed */
 }
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-icons img {
+  width: 60px; /* Adjust the width as needed */
+  margin-right: 10px; /* Optional: Add spacing between the icons */
+}
+
 
 /* Projects */
 
@@ -495,7 +504,7 @@ hr {
 
 .title-heading {
   text-align: center;
-  margin-bottom: 30vh;
+  margin-bottom: 25vh;
   padding-top: 0;
 
 }
@@ -504,22 +513,24 @@ hr {
 /* Contact */
 
 .contact {
+
   padding: 0;
   min-height: 100vh;
   max-width: 70rem;
  margin: 0;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 
 .contact h2 {  
-  height: 10vh;  
+  height: 15vh;  
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 5rem;
-    
+  margin-bottom: 0.5rem; /* Adjust this value as needed */
+  margin-top: -1rem; /* Adjust this value as needed */
 }
+
 
 .contact p {  
   font-family: "Poppins", sans-serif;
@@ -531,11 +542,15 @@ hr {
   margin-bottom: rem;
 }
 
-.contact .container {  
+.contact .container {
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  
 }
+
 
 
 footer {
