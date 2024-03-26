@@ -450,7 +450,7 @@ hr {
 .title-heading p {
   font-family: "Poppins", sans-serif;
   padding-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 
 }
 
@@ -463,7 +463,7 @@ hr {
 .tier-item {
   height: 4rem;
   margin-bottom: 13rem;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
   display: flex;
   flex-direction: column;
