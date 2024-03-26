@@ -463,7 +463,7 @@ hr {
 .tier-item {
   height: 4rem;
   margin-bottom: 13rem;
-  padding: 1rem;
+  padding: 1.5rem;
   position: relative;
   display: flex;
   flex-direction: column;
